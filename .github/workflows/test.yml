@@ -13,4 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: show value
-        run: echo "VALUE WAS: ${{ inputs.releaseTag }}"
+        run: |
+          echo "VALUE WAS: ${{ inputs.releaseTag }}"
